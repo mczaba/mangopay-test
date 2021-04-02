@@ -35,15 +35,6 @@ const handleButtonClick = () => {
   footerContent.textContent = `Qickstart ${marketBox ? 'marketplace' : 'crowdfunding'}`;
   footer.appendChild(footerContent);
 
-  if (
-    window.scrollTop + window.clientHeight ===
-    window.scrollHeight
-  ) {
-    setTimeout(() => {
-      window.scrollTop = window.scrollHeight
-    }, 5)
-  }
-
   marketBox = !marketBox
 };
 

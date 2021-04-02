@@ -1,9 +1,6 @@
 body {
   margin: 0;
   background-color: #eee;
-  --color-default: #ffe300;
-  --color-dark: #ffcb00;
-  --color-button: #f77f00;
   font-family: "Roboto", sans-serif;
 }
 
@@ -14,7 +11,7 @@ svg {
 }
 
 button {
-  background-color: var(--color-button);
+  background-color: #f77f00;
   color: white;
   font-size: 0.6rem;
   font-weight: 800;
@@ -49,8 +46,16 @@ h2 {
   border: 1px solid #eee;
   border-radius: 5px;
   background-color: white;
+  --color-default: #ffe300;
+  --color-dark: #ffcb00;
+  --color-button: #f77f00;
 }
 
+.box:nth-child(2n) {
+  --color-default: #00ff55;
+  --color-dark: #1db34f;
+  --color-button: #197468;
+}
 .box .header {
   border-bottom: 1px solid #eee;
   padding: 15px 20px;
