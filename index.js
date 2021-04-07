@@ -7,7 +7,7 @@ const handleButtonClick = () => {
   //create new box
   const box = document.createElement("div");
   box.classList = "box";
-  boxList.insertBefore(box, button);
+  boxList.appendChild(box);
 
   //create header
   const header = document.createElement("div");
